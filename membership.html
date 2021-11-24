@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Membership</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+<link href="jsdoc.js" type="text/javascript">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-container">
+                <div class="navbar-brand-wrapper">
+                    <h1>Townsville Community Music Center</h1>
+                </div>
+                <div class="navbar-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="membership.html" class="active">Membership</a></li>
+                        <li><a href="announcement.html">Announcement</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="mainwrapper">
+        <div id="content">
+            <section id="member-mainContent">
+                <h1> Become a Member</h1>
+                <p>You can support the Music Centre by becoming a Member and derive some benefits for yourself at the
+                    same time. Your subscription helps to keep us operating and we provide substantial discounts
+                    whenever possible.</p>
+                <p>For the Music Centre's own events, Members' ticket discounts can be as high as 50%!</p>
+                <p>The Music Centre is also registered as a Deductible Gift Recipient. Any extra donations are
+                    tax-deductible!</p>
+                <p>To become a Member, or to update an existing Membership,</p </section>
+                <div class="btnstyle">
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        style="width:auto;">Membership Form</button>
+                </div>
+                <div class="payment">
+                    <p>b>Please make payable to Townsville Community Music Centre Inc.</b></p>
+                    <b> Cheque post to<br>
+                        PO Box 1006, Townsville, Qld 4810<br>
+
+                        <p><b>Deposit to account:</b></p>
+                        <ul>
+                            <li>Account Name: Townsville Community Music Centre Inc.</li>
+                            <li>Account Number: 141 475 053</li>
+                            <li>Bank Bendigo Bank</li>
+                            <li>BSB Number: 633 000</li>
+                        </ul>
+                    </b>
+                </div>
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none' class=" close"
+                        title="Close Modal">x</span>
+                    <form class="modal-content animate">
+                        <div class="container">
+                            <label><strong>Date*</strong></label>
+                            <br>
+                            <input type="date" placeholder="date" name="date" required><br><br>
+                            <label><strong>First Name *</strong></label>
+                            <input type="text" placeholder="First Name" name="First Name" required>
+
+                            <label> <strong>Surname*</strong></label>
+                            <input type="text" placeholder="Surname" name="Surname" required>
+                            <label><strong>Postal Address*</strong></label>
+                            <input type="text" placeholder="Postal Address" name="Postal Address" required>
+                            <label><strong>Phone Number*</strong></label><br>
+                            <input type="number" placeholder="Working Hours" name="Phone Day" required><br><br>
+                            <label><strong>Phone Number*</strong></label><br>
+                            <input type="number" placeholder="After Hours" name="After hours" required><br><br>
+                            <label><strong>Mobile*</strong></label><br>
+                            <input type="number" placeholder="Mobile" name="Mobile" required><br>
+                            <br>
+                            <label><strong>Email*</strong></label>
+                            <input type="text" placeholder="Email" name="email" required>
+                            <label><strong>We Value Your Comments and Suggestions*</strong></label>
+                            <input type="text" placeholder="Comments" name="Comments" required>
+                            <p>I would like to make a tax deductible donation. I enclose a further $
+                                <input type="number" name="donation"><br>
+                            </p>
+                            <div class="clearfix">
+                                <button type="submit" class="signupbtn">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <div id="footer">Copyright2019@TownsvilleCommunityMusicCenter</div>
+</body>
+
+</html>
